@@ -1,0 +1,449 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+
+    overflow-x: hidden;
+
+    color: #777;
+
+
+
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+a
+{
+    font-size: 16px;
+
+    color: #000;
+}
+
+nav > a,
+a:hover
+{
+    font-size: 16px;
+
+    text-decoration: none;
+}
+
+.navwrapper .container {
+  padding: 0;
+  width: auto;
+}
+
+.navbar-wrapper {
+  margin-top: 0px;
+  height: 65px;
+  position: relative;
+  z-index: 15;
+}
+
+.navbar-wrapper .container {
+  padding: 0px;
+}
+
+.isFixed {
+  left: 0px;
+  width: 100%;
+}
+
+.hideClass {
+  display: none;
+}
+
+.isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
+  background: #cc580c;
+  color: #fff;
+}
+
+.isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
+  background: #cc580c;
+  color: #fff;
+}
+
+.isFixed .navbar.navbar-inverse.navbar-static-top a {
+  color: #fff;
+}
+
+.stuckMenu {
+  -o-transition: all .1s;
+  -ms-transition: all .1s;
+  -moz-transition: all .1s;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  background: #280A00;
+}
+
+.isFixed {
+  background: #280A00;
+  -o-transition: all .1s;
+  -ms-transition: all .1s;
+  -moz-transition: all .1s;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+} 
+
+    
+img
+{
+    max-width: 100%;
+}
+
+.logo
+{
+    width: 100%;
+    padding-bottom: 30px;
+
+    background: orange;
+}
+
+#papanav
+{
+    color: #fff;
+}
+
+#event
+{
+    padding-top: 100px;
+    padding-left: 75px;
+}
+
+#popularevent
+{
+    padding-left: 75px;
+}
+
+#famousevent
+{
+    padding-left: 75px;
+}
+
+#eventsearch{
+    padding-left: 75px;
+}
+
+#get-ticket{
+     padding-left: 75px;
+}
+#footer{
+    width: 100%;
+    padding-left: 30px;
+    z-index: 1000;
+}
+
+.box-area
+{
+    margin-bottom: 30px;
+    padding: 30px;
+
+    border-top: 4px solid #f39c12;
+    border-bottom: 1px solid #e2e2e2;
+    border-radius: 0 0 15px 15px;
+}
+
+.box-area-icon i
+{
+    font-size: 40px;
+
+    color: #f39c12;
+}
+
+.line
+{
+    margin-top: 25px;
+
+    border-bottom: 2px solid #ff9800;
+}
+
+.displayPE
+{
+    display: block;
+
+    height: 300px;
+
+    background: orange;
+}
+
+.buttons
+{
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+    text-align: center;
+}
+
+.list
+{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+    background: orange;
+}
+
+.slider
+{
+    width: 100%;
+    height: 250px;
+}
+
+.search
+{
+    display: block;
+
+    height: 300px;
+
+    background: orange;
+}
+
+#sponser
+{
+    width: 100px;
+    height: 100px;
+
+    background: orange;
+}
+
+#sponsership
+{
+    width: 100%;
+    margin-left: 5px;
+    padding-top: 100px;
+}
+
+footer
+{
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    background: red;
+}
+
+#dayevent .item
+{
+    height: 300px;
+    width: 100px;
+    margin: 15px;
+    margin-right: 15px;
+    padding: 20px 0;
+    border: solid #fff;
+    text-align: center;
+
+    color: #fff;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    background: orange;
+}
+
+#sponsers .item
+{
+   
+    margin: 15px;
+    margin-right: 15px;
+    padding: 20px 0;
+    border: solid #fff;
+    text-align: center;
+
+    color: #fff;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    background: orange;
+}
+
+
+#dayevent{
+    padding-right: 15px;
+}
+/***************************
+****************************
+This is the form start
+****************************
+***************************/
+
+.form-signin
+{
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    font-size: 16px;
+
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type='text']
+{
+    margin-bottom: -1px;
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type='password']
+{
+    margin-bottom: 10px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0 20px 0;
+
+    background-color: #f7f7f7;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+       -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+            box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+}
+.login-title
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    display: block;
+
+    color: #555;
+}
+.profile-img
+{
+    display: block;
+
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+
+    margin-top: 10px;
+}
+
+/***************************
+****************************
+This is the pop up start
+****************************
+***************************/
+
+#detail .detail-item
+{
+    right: 0;
+
+    margin: 0 0 15px;
+}
+
+#detail .detail-item .detail-link
+{
+    position: relative;
+
+    display: block;
+
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#detail .detail-item .detail-link .caption
+{
+    position: absolute;
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+}
+
+#detail .detail-item .detail-link .caption:hover
+{
+    opacity: 1;
+}
+
+#detail .detail-item .detail-link .caption .caption-content
+{
+    font-size: 20px;
+
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+
+    text-align: center;
+}
+
+#detail .detail-item .detail-link .caption .caption-content i
+{
+    margin-top: -12px;
+}
+
+#detail .detail-item .detail-link .caption .caption-content h3,
+#detail .detail-item .detail-link .caption .caption-content h4
+{
+    margin: 0;
+}
+
+#detail *
+{
+    z-index: 2;
+}
+
+#PEtable{
+   padding-top: 5px;
+}
+
+.tables{
+    width: 800px;
+    padding-left: 50px;
+}
+
+
+.getticket{
+    height: 150px;
+    display: block;
+    background: #ff9800;
+}
+
+.e-result{
+    background: #fff;
+    padding: 50px;
+    widows: 250px;
+    height: 200px;
+}
