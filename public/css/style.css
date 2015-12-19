@@ -447,3 +447,8 @@ This is the pop up start
     widows: 250px;
     height: 200px;
 }
+
+.calendar{
+    padding-top: 100px;
+    padding-left: 75px;
+}

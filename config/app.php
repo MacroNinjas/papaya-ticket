@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -137,7 +137,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         'Illuminate\Html\HtmlServiceProvider',
-
+        'MaddHatter\LaravelFullcalendar\ServiceProvider',
         /*
          * Application Service Providers...
          */
@@ -196,6 +196,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'Form'=> 'Illuminate\Html\FormFacade',
         'HTML'=> 'Illuminate\Html\HtmlFacade',
+        'Calendar' => 'MaddHatter\LaravelFullcalendar\Facades\Calendar',
     ],
 
 ];
